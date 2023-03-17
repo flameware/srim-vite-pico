@@ -75,7 +75,7 @@
 
     <article>
       <header>주주가치</header>
-      <label for="expectedbeta"><small>요구수익율</small></label>
+      <label for="expectedbeta"><small>요구수익율 - %</small></label>
       <input
         id="expectedbeta"
         type="number"
@@ -83,7 +83,8 @@
         placeholder="요구 수익율 (%)"
         required
       />
-      <label for="dominantequity"><small>지배주주 자기자본</small></label>
+      <label for="dominantequity"><small>지배주주 자기자본 - 억원</small></label
+      >
       <input
         id="dominantequity"
         type="number"
@@ -91,7 +92,7 @@
         placeholder="지배주주 자기자본 (억 원)"
         required
       />
-      <label for="expectedroe"><small>ROE 예상치</small></label>
+      <label for="expectedroe"><small>ROE 예상치 - %</small></label>
       <input
         id="expectedroe"
         type="number"
